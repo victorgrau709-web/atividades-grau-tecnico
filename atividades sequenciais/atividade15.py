@@ -1,0 +1,7 @@
+ganho_por_hora = float(input("Quanto  ganha por hora? R$ "))
+horas_trabalhadas = float(input("Quantas horas  trabalhou no mês? "))
+print(f"\n+ Salário Bruto: R$ {salario_bruto:.2f}")
+print(f"− IR (11%): R$ {ir:.2f}")
+print(f"− INSS (8%): R$ {inss:.2f}")
+print(f"− Sindicato (5%): R$ {sindicato:.2f}")
+print(f"= Salário Líquido: R$ {salario_liquido:.2f}")
